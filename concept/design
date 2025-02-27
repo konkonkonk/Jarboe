@@ -1,0 +1,30 @@
+note taking program
+
+this will be designed for quickly jotting down notes without much regard for organization at the time
+
+
+there will be an ncurses screen for note taking with evil keybinds like vim
+there should be a command line where you can do things like add tags to your notes, combine it with other notes, add it to collections etc
+there should also be a menu that lets you search for notes by tags and collections.
+it should automatically format notes to a certain extent
+i will create my own file type for the notes to hold some amount of metadata (tags, creation dates, etc)
+there should also be a command to package collections, or all notes, into one file that can be easily shared between devices
+
+
+
+commands:
+
+:q quit
+:w write
+:wq write quit
+:o open file (type name)
+:sc search collection for phrase
+:sn search current file for phrase (grep or ripgrep)
+:stc search collection for tag
+:sta search all for tag
+:ac add to collection
+:at add tag
+:ec export collection
+:ea export all
+:pll pull from remote server
+:psh push to remote server
