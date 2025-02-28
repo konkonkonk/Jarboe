@@ -5,14 +5,14 @@ CC := gcc
 SRC := jarjar.c
 
 
-LCFLAGS := -lncursesw -lgrapheme
+LDFLAGS := -Iheaders -lpanel -lform -lncurses -lgrapheme
 
 OPTPARAM :=
 
 ARCHPARAM :=
 
 compile:
-	$(CC) -o jarjar $(LCFLAGS) $(OPTPARAM) $(ARCHPARAM) $(SRC)
+	$(CC) -o jarjar $(SRC) $(LDFLAGS) $(OPTPARAM) $(ARCHPARAM)
 
 install: compile
 	mv jarjar /usr/bin

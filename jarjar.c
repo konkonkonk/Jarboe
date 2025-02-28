@@ -5,6 +5,8 @@
 #include <unistd.h>
 #include <ncurses.h>
 #include <grapheme.h>
+#include <panel.h>
+#include <form.h>
 #include "def.h"
 
 
