@@ -1,9 +1,9 @@
-#+title: Jarjar README
+#+title: Jarboe README
 #+author: Quinn Borrok
 
-* Jarjar
+* Jarboe
 
-Jarjar is a vi inspired ncurses note taking application.
+Jarboe is a vi inspired ncurses note taking application.
 
 ** Build instructions
 

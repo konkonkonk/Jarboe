@@ -7,7 +7,9 @@
 #include <grapheme.h>
 #include <panel.h>
 #include <form.h>
-#include "def.h"
+
+//jarjar headers
+#include <def.h>
 
 
 const char helpscr[] = "screen of help.\n";
@@ -20,11 +22,11 @@ int main(int argc, char **argv) {
     switch(opt) {
       case 'h':
         printf("%s", helpscr);
-	return 0;
+        return 0;
         break;
       case 'w':
         //no interface, use command line directly
-	return 0;
+        return 0;
         break;
     }
 
