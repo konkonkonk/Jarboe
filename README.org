@@ -7,4 +7,32 @@ Jarboe is a vi inspired ncurses note taking application.
 
 ** Build instructions
 
-Ncurses, and grapheme are required libraries. Install ncurses via a package manager, grapheme is included in the source.
+Ncurses, and grapheme are required libraries. Install ncurses via a package manager, grapheme is already included in the source.
+
+Arch:
+#+BEGIN_SRC sh
+sudo pacman -S ncurses
+#+END_SRC
+Fedora:
+#+BEGIN_SRC sh
+sudo dnf install ncurses-devel
+#+END_SRC
+
+To build, go to the directory of the source and run
+#+BEGIN_SRC sh
+make
+#+END_SRC
+
+To install the program globally to your machine, run
+#+BEGIN_SRC sh
+sudo make install
+#+END_SRC
+
+** Usage
+
+Cli arguments:
+Use -h to print the help screen.
+Use -w to avoid rendering the ncurses interface and issue commands to jarboe directly instead.
+
+Jarboe commands and keywords:
+to be added
