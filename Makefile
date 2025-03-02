@@ -2,7 +2,7 @@
 CC := gcc
 
 # Source files
-SRC := jarboe.c
+SRC := $(wildcard src/*.c)
 
 
 LDFLAGS := -Iheaders -Llib -lpanel -lform -lncurses
