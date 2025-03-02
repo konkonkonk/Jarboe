@@ -5,7 +5,7 @@ CC := gcc
 SRC := jarboe.c
 
 
-LDFLAGS := -Iheaders -lpanel -lform -lncurses -lgrapheme
+LDFLAGS := -Iheaders -Llib -lpanel -lform -lncurses
 
 OPTPARAM :=
 
