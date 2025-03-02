@@ -31,8 +31,8 @@ sudo make install
 ** Usage
 
 Cli arguments:
-Use -h to print the help screen.
-Use -w to avoid rendering the ncurses interface and issue commands to jarboe directly instead.
+1. Use -h to print the help screen.
+2. Use -w to avoid rendering the ncurses interface and issue commands to jarboe directly instead.
 
 Jarboe commands and keywords:
-to be added
+1. to be added
