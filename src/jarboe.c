@@ -8,12 +8,11 @@
 #include <panel.h>
 #include <form.h>
 
-//jarjar headers
+//jarboe headers
 #include <def.h>
 
 
 const char helpscr[] = "screen of help.\n";
-const char helpMachine[] = "Use -h or --help to print help screen.\n";
 
 int main(int argc, char **argv) {
   int opt;
